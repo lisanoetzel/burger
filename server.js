@@ -1,7 +1,7 @@
 // required dependencies 
 var express = require ("express");
 var expresshbs = require("express-handlebars");
-var mysql = require("mysql");
+
 
 //EXPRESS SERVER & PORT
 var PORT = process.env.PORT || 8000;
@@ -22,7 +22,3 @@ var routes = require("./controllers/burgers_controller.js");
     app.listen(PORT, function() {
             console.log("Listening on port: ", PORT);
     });
-
-
-
-

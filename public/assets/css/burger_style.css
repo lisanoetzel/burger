@@ -1,7 +1,7 @@
 body {
     width: 99%;
     height: 900px;
-    background-image:url(../img/burger.png);
+    background-image:url("..assets/img/burger.png");
   }
   
   #top-bar {

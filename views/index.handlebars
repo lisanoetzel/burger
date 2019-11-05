@@ -1,0 +1,9 @@
+<h1>Burgers to Eat</h1>
+<ul>
+    {{!-- Looping through Burger Object, creating a list with Burger ID & Name --}}
+    {{#each.burgers}}
+        <li>
+            <p>{{this.id}}.{{this.burger_name}}</p>
+        </li>
+    {{/each}}
+</ul>
